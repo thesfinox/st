@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "mono:pixelsize=12:antialias=true:autohint=true";
-static char *font2[] = { "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "DejaVuSansM Nerd Font:pixelsize=14:antialias=true:autohint=true";
+static char *font2[] = { "Noto Color Emoji:pixelsize=10:antialias=true:autohint=true" };
 static int borderpx = 2;
 
 /*
@@ -104,10 +104,10 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 8;
+unsigned int tabspaces = 4;
 
 /* bg opacity */
-float alpha = 0.8;
+float alpha = 1.0;
 float alphaOffset = 0.0;
 float alphaUnfocus;
 
@@ -162,7 +162,7 @@ static unsigned int cursorshape = 2;
  */
 
 static unsigned int cols = 80;
-static unsigned int rows = 24;
+static unsigned int rows = 35;
 
 /*
  * Default colour and shape of the mouse cursor
